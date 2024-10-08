@@ -19,7 +19,7 @@
 
 10. Display results
 '''
-print("Your Budget: $", format(bus))
+print("your budget: $", format(budget,".2f"))
 print("-----Trip Calculator-----")
 #Ask user to enter their budget
 budget = float(input("What is your travel budget? "))
@@ -34,5 +34,4 @@ food = float (input("Food Budget: "))
 #Add expenses
 extras = float(input("How much to alot for extras? "))
 #Subtract expenses from budget
-print(used = int(destination + gas + hotel + food + extras - budget))
- 
+
