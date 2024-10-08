@@ -35,3 +35,4 @@ food = float (input("Food Budget: "))
 extras = float(input("How much to alot for extras? "))
 #Subtract expenses from budget
 print(used = int(destination + gas + hotel + food + extras - budget))
+ 
