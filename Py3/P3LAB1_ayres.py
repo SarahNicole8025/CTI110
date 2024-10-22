@@ -34,7 +34,7 @@ def go_alone():
         go_left
     elif choice == "right":
         go_right
-    elif choice == "forwar":
+    elif choice == "forward":
         go_forward
     elif choice == "back":
         go_back
