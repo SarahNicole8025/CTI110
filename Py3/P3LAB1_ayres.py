@@ -25,10 +25,10 @@ def go_asylum():
 def go_alone():
     print("You walk down a dark hallway with a flashlight")
     print("You hit a juntion with three other hallways")
-    print("1.Left")
-    print("2.Right")
-    print("3.Forward")
-    print("4.Back the way you came")
+    print("Left")
+    print("Right")
+    print("Forward")
+    print("Back the way you came")
     choice = input()
     if choice == "left":
         go_left
