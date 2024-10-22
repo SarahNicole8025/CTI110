@@ -6,33 +6,37 @@
 def main():
     print("Choose you own Adventure")
     print("Your friends have invited you to explore an abbandden Insane Asythem")
-    go_Asythem()
-    go_home()
+    print("[explore] or [home]")
+    choice = input()
+    if choice == "explore":
+        go_Asythem()
+    elif choice == "home":
+        go_home()
 
 def go_Asythem():
-    print("You are dared to go in alone")
-    print("You go in as groups of two")
+    print("1.You are dared to go in alone")
+    print("2.You go in as groups of two")
     choice = input()
-    if choice == alone:
-        go_alone
-    elif choice == group:
-        go_in_group
+    if choice == "alone":
+        go_alone()
+    elif choice == "group":
+        go_in_group()
 
 def go_alone():
     print("You walk down a dark hallway with a flashlight")
     print("You hit a juntion with three other hallways")
-    print("Left")
-    print("Right")
-    print("Forward")
-    print("Back the way you came")
+    print("1.Left")
+    print("2.Right")
+    print("3.Forward")
+    print("4.Back the way you came")
     choice = input()
-    if choice == left:
+    if choice == "left":
         go_left
-    elif choice == right:
+    elif choice == "right":
         go_right
-    elif choice == forward:
+    elif choice == "forwar":
         go_forward
-    elif choice == back:
+    elif choice == "back":
         go_back
 
 def go_left():
@@ -52,42 +56,7 @@ def go_in_group():
 
 
 def go_home():
-    print("You decide to go Home.")
-    print("But should you order some takeout?")
-    print("chinese")
-    print("thai")
-    choice = input()
-    if choice == chinese:
-        get_chinese()
-    elif choice == thai:
-        get_thai()
-
-def  get_chinese():
-    print("You go looking for your chinese takeout booklet")
-    print("You find 3 places that has what you want.")
-    print("1.Dragon Tails")
-    print("2.Luckys")
-    print("3.Zou's Place")
-    choice = int(input())
-    if choice == 1:
-        get_Dragon_()
-    elif choice == 2:
-        get_luckys()
-    elif choice == 3:
-        get_zou_place()
-
-     # replace
-
-def get_thai():
-    print("You look up tai places near you")
-    print("There are only 2 places n your town.")
-    print("1.Delivers but is two stars.")
-    print("2.Is only carryout but is 5 stars.")
-    choice = int(input())
-    if choice == 1:
-        get_delivery()
-    elif choice == 2:
-        get_carryout()
+    print("Your a WHIMP!!!!!!")
 
 #Start Program
 main()
