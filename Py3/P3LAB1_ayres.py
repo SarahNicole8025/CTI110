@@ -5,15 +5,15 @@
 
 def main():
     print("Choose you own Adventure")
-    print("Your friends have invited you to explore an abbandden Insane Asythem")
-    print("[explore] or [home]")
+    print("Your friends have invited you to explore an abandoned Insane Asylum")
+    print("[asylum] or [home]")
     choice = input()
-    if choice == "explore":
-        go_Asythem()
+    if choice == "asylum":
+        go_asylum()
     elif choice == "home":
         go_home()
 
-def go_Asythem():
+def go_asylum():
     print("1.You are dared to go in alone")
     print("2.You go in as groups of two")
     choice = input()
