@@ -36,10 +36,10 @@ food = float (input("Food Budget: "))
 #Add expenses
 extras = float(input("How much to alot for extras? "))
 #Subtract expenses from budget
-
-
 expenses = gas+hotel+food+extras
-print("How much that is used: ",expenses)
 leftover =  budget - expenses
+print('------------------------------')
+print("How much that is used: ",expenses)
+
 print("How much that is left: ",leftover)
 
