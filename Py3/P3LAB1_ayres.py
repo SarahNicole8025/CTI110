@@ -4,59 +4,18 @@
 # 10-22-24
 
 def main():
-    print("Choose you own Adventure")
-    print("Your friends have invited you to explore an abandoned Insane Asylum")
+    print("CHOOSE YOUR OWN ADVENTURE")
+    print("It was a chilly evening when your friends burst into your room, excitement written all over their faces.")
+    print("Come on! We're going to the old ayslum! You must come. It'll be an adventure!")
+    print("You glance outside at the darkening clouded sky and feel curiosity as well as apprehension")
+    print("What will you do?")
     print("[asylum] or [home]")
     choice = input()
-    if choice == "asylum":
+    if choice == "Go to the Asylum":
         go_asylum()
-    elif choice == "home":
-        go_home()
+    elif choice == "Stay home":
+        stay_home()
 
-def go_asylum():
-    print("1.You are dared to go in alone")
-    print("2.You go in as groups of two")
-    choice = input()
-    if choice == "alone":
-        go_alone()
-    elif choice == "group":
-        go_in_group()
-
-def go_alone():
-    print("You walk down a dark hallway with a flashlight")
-    print("You hit a juntion with three other hallways")
-    print("Left")
-    print("Right")
-    print("Forward")
-    print("Back the way you came")
-    choice = input()
-    if choice == "left":
-        go_left
-    elif choice == "right":
-        go_right
-    elif choice == "forward":
-        go_forward
-    elif choice == "back":
-        go_back
-
-def go_left():
-    pass
-
-def go_right():
-    pass
-
-def go_forward():
-    pass
-
-def go_back():
-    print("You make it back to your friends. They call you a whimp and make fun of you.")
-
-def go_in_group():
-    pass
-
-
-def go_home():
-    print("Your a WHIMP!!!!!!")
 
 #Start Program
 main()
