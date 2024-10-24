@@ -11,9 +11,9 @@ def main():
     print("What will you do?")
     print("[home] or [asylum]")
     choice = input()
-    if choice == "Stay home":
+    if choice == "home":
         stay_home()
-    elif choice == "Go to the Asylum":
+    elif choice == "asylum":
         go_asylum()
 def stay_home():
     print("You glance at the flickering TV and the takeout menu spread out on the coffee table.")
