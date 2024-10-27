@@ -147,5 +147,15 @@ def examine_furniture():
     choice = input()
     if choice == "crash":
         go_to_crash
+def look_at_mirror():
+    print("As you approach the mirror, you catch a fleeting glimpse of a shadowy figure behind")
+    print("you in the reflection. When you turn around, nothing is there. Your heart races. “Did")
+    print("you see that?” you ask Marina, who looks equally shaken. Suddenly there is a loud ")
+    print("crash from above. causing you and marina you race up the stairs in search of ")
+    print("Royce and Asher.")
+    print("[Crash]")
+    choice = input
+    if choice == "crash":
+        go_to_crash
 #Start Program
 main()
