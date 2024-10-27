@@ -63,7 +63,7 @@ def go_together():
         go_office
     elif choice == "back":
         go_back
-def go_admin():
+def go_office():
     print("The office is cluttered with old files, overturned furniture, and a thick layer of dust covering")
     print("everything. As you shine your flashlights around, can't shake the feeling that you're being watched.")
     print("An old wooden desk stands in the corner, covered in dust. There might be something interesting hidden inside")
