@@ -34,7 +34,7 @@ def go_asylum():
     print("[Alone]or[Group]")
     choice = input()
     if choice == "group":
-        go_group
+      go_group
     elif choice == "alone":
         go_alone
 def go_group():
