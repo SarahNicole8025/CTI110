@@ -120,10 +120,10 @@ def go_pairs():
     print("secrets more quickly. After a brief discussion, you and Marina decide to explore the")
     print("main hall, while Royce and Asher head to the upper floors. The air feels thick with ")
     print("tension as you agree to meet back in an hour.")
-    print("[Main Hall exploration]")
+    print("[Main Hall]")
     choice = input()
-    if choice == "mian hall":
-        explore_main_hall
+    if choice == "main hall":
+        explore_main_hall()
 def explore_main_hall():
     print("As you and Marina step into the main hall, the atmosphere shifts. Dust motes swirl in ")
     print("and the silence is almost palpable. The faint light filtering through grimy windows with ")
