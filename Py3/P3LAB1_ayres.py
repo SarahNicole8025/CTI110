@@ -72,7 +72,7 @@ def go_office():
     print("[desk] or [main hall]")
     choice = input()
     if choice == "desk":
-        check_desk()
+        explore_desk()
     elif choice == "main hall":
         explore_main_hall()
 def explore_desk():
