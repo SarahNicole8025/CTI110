@@ -47,9 +47,9 @@ def go_group():
     print("with the scent of mildew and decay. After a moment of uneasy silence, you turn to your friends and suggest")
     print("your next move. Do you want to split into pairs and explore different areas or stick together and head")
     print("to the administration office?")
-    print("[Pairs] or [ Stay together]")
+    print("[Split up] or [ Stay together]")
     choice = input()
-    if choice == "pairs":
+    if choice == "split up":
         go_pairs()  
     elif choice == "stay together":
         go_together()  
@@ -89,12 +89,13 @@ def examine_noise():
     print("You exchange worried glances with your friends, and adrenaline surges through you.")
     print("'We should check that out,' you suggest, and everyone nods in agreement.")
     print("Cautiously, you make your way toward the door, your hearts pounding in unison.")
-    print("[Closer] or [Go Back]")
+    print("Do you get closer or do you go back?")
+    print("[Closer] or [Back]")
     choice = input() 
     if choice == "closer":
         go_closer()  
-    elif choice == "go back":
-        explore_desk()  
+    elif choice == "back":
+        go_back()  
 def go_closer():
     print("As you step into the dimly lit hallway, the air feels charged with anticipation. The sound echoes again—this time, a series of heavy thuds,") 
     print("as if something is being dragged across the floor.You decide to follow the sound, moving deeper into the asylum. The thuds seem to lead you toward a")
@@ -114,6 +115,26 @@ def go_closer():
     print("is Royce’s desperate face fading into the shadows, forever haunted by the horrors you uncovered. Asher’s cries echo in your mind, a chilling reminder of the price of curiosity, as ")
     print("the darkness closes in around you all.")
     print("You have reached the end of the line,Go back to find the way out.")
-
+def go_pairs():
+    print("You suggest splitting into pairs to cover more ground, hoping to uncover the asylum's")
+    print("secrets more quickly. After a brief discussion, you and Marina decide to explore the")
+    print("main hall, while Royce and Asher head to the upper floors. The air feels thick with ")
+    print("tension as you agree to meet back in an hour.")
+    print("[Main Hall exploration]")
+    choice = input()
+    if choice == "mian hall":
+        explore_main_hall
+def explore_main_hall():
+    print("As you and Marina step into the main hall, the atmosphere shifts. Dust motes swirl in ")
+    print("and the silence is almost palpable. The faint light filtering through grimy windows with ")
+    print("almost desentigrated Furniture placed around the area,you see a Shattered Mirror laying ")
+    print("on the floor in the dimmly lit far corner")
+    print("Do you check out the furniture or look into the mirror")
+    print("[furniture] or [Mirror]")
+    choice = input()
+    if choice == "furniture":
+        examine_furniture()
+    elif choice == "mirror":
+        look_at_mirror()
 #Start Program
 main()
