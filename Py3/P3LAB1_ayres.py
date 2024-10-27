@@ -57,10 +57,10 @@ def go_together():
     print("You and yur friends agree that it's best to sta togethe. th group moves cautiously toward the admins office,")
     print("each step echoing int he eerie silence. The door creaks open, revealing a room shrouded in darkness and dust")
     print("Do you continue into the Admins office or go back home?")
-    print("[Admin's office] or [Back]")
+    print("[office] or [Back]")
     choice = input()
-    if choice =="admins office":
-        go_admin
+    if choice =="office":
+        go_office
     elif choice == "back":
         go_back
 def go_admin():
