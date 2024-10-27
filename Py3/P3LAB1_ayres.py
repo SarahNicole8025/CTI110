@@ -85,7 +85,14 @@ def explore_desk():
         examine_noise
     elif choice =="back":
         go_back
-
+def examine_noise():
+    print("You exchange worried glances with your friends, and adrenaline surges through you.")
+    print("'We should check that out,' you suggest, and everyone nods in agreement")
+    print("Cautiously, you make your way toward the door, your hearts pounding in unison.")
+    print("[The Noise]")
+    choice = input()
+    if choice == "noise":
+        go_to_noise
 
 
 #Start Program
