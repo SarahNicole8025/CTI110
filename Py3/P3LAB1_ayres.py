@@ -75,7 +75,15 @@ def go_office():
         check_desk()
     elif choice == "main hall":
         explore_main_hall()
-
+def explore_desk():
+    print("Suddenly,A loud bang rverberated fro the hallway outside, makin everyone jump. You exchange nervous")
+    print("glances as the noise grows louder, echoing through the halls.")
+    print("Do you walk toward the noise or run back to the front door")
+    print("[Noise]or[back]")
+    choice = input()
+    if choice == "noise":
+        examine_noise
+    elif choice =="back":
 
 
 
