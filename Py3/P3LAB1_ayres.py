@@ -136,5 +136,16 @@ def explore_main_hall():
         examine_furniture()
     elif choice == "mirror":
         look_at_mirror()
+def examine_furniture():
+    print("While rummaging through the old desk, you discover a hidden drawer. Inside, there’s a ")
+    print("dusty ledger with strange symbols and cryptic notes scrawled in the margins. One note")
+    print("catches your eye: “The truth lies beneath.” Before you can call Marina over to show ")
+    print("what you have found. A large crash is heard over your heads. causing you and ")
+    print("marina to whip your heads up looking at each other then running out of the room")
+    print("after Royce and Asher.")
+    print("[Crash]")
+    choice = input()
+    if choice == "crash":
+        go_to_crash
 #Start Program
 main()
