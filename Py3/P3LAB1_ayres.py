@@ -113,7 +113,7 @@ def go_closer():
     print("have to go!'he shouts, but the despair in his voice is lost amidst the creeping dread.In that moment, the asylum claims another soul, its hunger insatiable. The last thing you see ") 
     print("is Royce’s desperate face fading into the shadows, forever haunted by the horrors you uncovered. Asher’s cries echo in your mind, a chilling reminder of the price of curiosity, as ")
     print("the darkness closes in around you all.")
-    print("You have reached the end of the line,Go back to find the eay out.")
+    print("You have reached the end of the line,Go back to find the way out.")
 
 #Start Program
 main()
