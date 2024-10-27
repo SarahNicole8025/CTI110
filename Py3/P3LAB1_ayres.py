@@ -59,7 +59,7 @@ def go_together():
     print("Do you continue into the Admins office or go back home?")
     print("[office] or [Back]")
     choice = input()
-    if choice =="office":
+    if choice == "office":
         go_office
     elif choice == "back":
         go_back
