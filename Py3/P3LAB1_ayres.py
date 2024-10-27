@@ -79,9 +79,9 @@ def explore_desk():
     print("Suddenly,A loud bang rverberated fro the hallway outside, makin everyone jump. You exchange nervous")
     print("glances as the noise grows louder, echoing through the halls.")
     print("Do you walk toward the noise or run back to the front door")
-    print("[Noise]or[back]")
+    print("[examine noise]or[back]")
     choice = input()
-    if choice == "noise":
+    if choice == "examine noise":
         examine_noise
     elif choice =="back":
         go_back
@@ -89,10 +89,10 @@ def examine_noise():
     print("You exchange worried glances with your friends, and adrenaline surges through you.")
     print("'We should check that out,' you suggest, and everyone nods in agreement.")
     print("Cautiously, you make your way toward the door, your hearts pounding in unison.")
-    print("[The Noise] or [Go Back]")
+    print("[Closer] or [Go Back]")
     choice = input() 
-    if choice == "the noise":
-        go_to_noise()  
+    if choice == "closer":
+        go_closer()  
     elif choice == "go back":
         explore_desk()  
 
