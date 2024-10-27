@@ -50,31 +50,31 @@ def go_group():
     print("[Pairs] or [ Stay together]")
     choice = input()
     if choice == "pairs":
-        go_pairs()  # Call go_pairs function
+        go_pairs()  
     elif choice == "stay together":
-        go_together()  # Call go_together function
+        go_together()  
 def go_together():
-    print("You and yur friends agree that it's best to sta togethe. th group moves cautiously toward the admins office,")
-    print("each step echoing int he eerie silence. The door creaks open, revealing a room shrouded in darkness and dust")
-    print("Do you continue into the Admins office or go back home?")
-    print("[office] or [Back]")
+    print("You and your friends agree that it's best to stay together. The group moves cautiously toward the admin's office,")
+    print("each step echoing in the eerie silence. The door creaks open, revealing a room shrouded in darkness and dust.")
+    print("Do you continue into the admin's office or go back home?")
+    print("[office] or [back]")
     choice = input()
     if choice == "office":
-        go_office
+        go_office()  
     elif choice == "back":
-        go_back
+        go_back()  
 def go_office():
     print("The office is cluttered with old files, overturned furniture, and a thick layer of dust covering")
-    print("everything. As you shine your flashlights around, can't shake the feeling that you're being watched.")
-    print("An old wooden desk stands in the corner, covered in dust. There might be something interesting hidden inside")
-    print("Your friends are torn between checking the desk or going to another room it comes down to your vote. Do you ")
-    print("vote to stay and check the desk or Explore the Main Hall")
-    print("[Desk]or[Main Hall]")
+    print("everything. As you shine your flashlights around, you can't shake the feeling that you're being watched.")
+    print("An old wooden desk stands in the corner, covered in dust. There might be something interesting hidden inside.")
+    print("Your friends are torn between checking the desk or going to another room. It comes down to your vote. Do you")
+    print("vote to stay and check the desk or explore the main hall?")
+    print("[desk] or [main hall]")
     choice = input()
     if choice == "desk":
-        explore_desk
+        check_desk()
     elif choice == "main hall":
-        explore_main_hall
+        explore_main_hall()
 
 
 
