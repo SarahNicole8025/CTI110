@@ -90,12 +90,11 @@ def examine_noise():
     print("'We should check that out,' you suggest, and everyone nods in agreement.")
     print("Cautiously, you make your way toward the door, your hearts pounding in unison.")
     print("[The Noise] or [Go Back]")
-    choice = input()
-    if choice == "noise":
-        go_to_noise()
-    elif choice == "back":
+    choice = input() 
+    if choice == "the noise":
+        go_to_noise()  
+    elif choice == "go back":
         explore_desk()  
-
 
 #Start Program
 main()
