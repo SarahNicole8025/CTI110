@@ -82,9 +82,9 @@ def explore_desk():
     print("[examine noise]or[back]")
     choice = input()
     if choice == "examine noise":
-        examine_noise
+        examine_noise()
     elif choice =="back":
-        go_back
+        go_back()
 def examine_noise():
     print("You exchange worried glances with your friends, and adrenaline surges through you.")
     print("'We should check that out,' you suggest, and everyone nods in agreement.")
