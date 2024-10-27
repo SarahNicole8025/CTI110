@@ -84,6 +84,7 @@ def explore_desk():
     if choice == "noise":
         examine_noise
     elif choice =="back":
+        go_back
 
 
 
