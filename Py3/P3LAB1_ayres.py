@@ -57,12 +57,24 @@ def go_together():
     print("You and yur friends agree that it's best to sta togethe. th group moves cautiously toward the admins office,")
     print("each step echoing int he eerie silence. The door creaks open, revealing a room shrouded in darkness and dust")
     print("Do you continue into the Admins office or go back home?")
+    print("[Admin's office] or [Back]")
     choice = input()
     if choice =="admins office":
         go_admin
     elif choice == "back":
         go_back
-
+def go_admin():
+    print("The office is cluttered with old files, overturned furniture, and a thick layer of dust covering")
+    print("everything. As you shine your flashlights around, can't shake the feeling that you're being watched.")
+    print("An old wooden desk stands in the corner, covered in dust. There might be something interesting hidden inside")
+    print("Your friends are torn between checking the desk or going to another room it comes down to your vote. Do you ")
+    print("vote to stay and check the desk or Explore the Main Hall")
+    print("[Desk]or[Main Hall]")
+    choice = input()
+    if choice == "desk":
+        explore_desk
+    elif choice == "main hall":
+        explore_main_hall
 
 
 
