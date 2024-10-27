@@ -37,8 +37,6 @@ def go_asylum():
         go_group()  
     elif choice == "alone":
         go_alone()  
-    
-
 def go_group():
     print("One of your friends steps forward, concern etched on their face. 'No way! We can't send you")
     print("in alone. What if something happens to you?' The atmosphere thickens with tension. You take a deep breath,")
@@ -49,13 +47,21 @@ def go_group():
     print("with the scent of mildew and decay. After a moment of uneasy silence, you turn to your friends and suggest")
     print("your next move. Do you want to split into pairs and explore different areas or stick together and head")
     print("to the administration office?")
-    print("[Pairs] or [Together]")
+    print("[Pairs] or [ Stay together]")
     choice = input()
     if choice == "pairs":
         go_pairs()  # Call go_pairs function
-    elif choice == "together":
+    elif choice == "stay together":
         go_together()  # Call go_together function
-   
+def go_together():
+    print("You and yur friends agree that it's best to sta togethe. th group moves cautiously toward the admins office,")
+    print("each step echoing int he eerie silence. The door creaks open, revealing a room shrouded in darkness and dust")
+    print("Do you continue into the Admins office or go back home?")
+    choice = input()
+    if choice =="admins office":
+        go_admin
+    elif choice == "back":
+        go_back
 
 
 
