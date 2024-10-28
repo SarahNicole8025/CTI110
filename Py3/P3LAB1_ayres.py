@@ -157,5 +157,23 @@ def look_at_mirror():
     choice = input
     if choice == "crash":
         go_to_crash
+def go_to_crash():
+    print("Together you raced up the staircase, your footsteps pounding against the wooden")
+    print("steps. The air thickened with an unsettling tension, each step amplifying your growing")
+    print("fear. As you burst into the upper floor, the sight stopped you in your tracks. A scene of")
+    print("As you burst into the upper floor, the sight stopped you in your tracks. A scene of ")
+    print("horror unfolded before you: blood splattered across the walls, and body parts lay ")
+    print("gruesomely scattered on the floor. The metallic scent of iron filled the air, and your ")
+    print("heart raced as panic surged through your veins.'Oh my God!' Marina gasped, her face pale.")
+    print("You grabbed her arm, the instinct to flee overpowering the urge to understand. 'We ")
+    print("can’t stay here!' you shouted, and without a second thought, you turned and ran back ")
+    print("down the stairs, adrenaline fueling your escape.Bursting into the hallway, you both sprinted")
+    print("toward the exit,the haunting image seared into your minds.No words were exchanged as you fled")
+    print("into the night, the weight of the unspeakable incident pressing down on you like a shroud.")
+    print("You knew you would never speak of it again, a dark secret bound by terror and confusion.")
+    print("You've reached the end of the line. Go back and take another crack at it.")
+    
+
+    
 #Start Program
 main()
