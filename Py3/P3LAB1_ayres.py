@@ -172,7 +172,26 @@ def go_to_crash():
     print("into the night, the weight of the unspeakable incident pressing down on you like a shroud.")
     print("You knew you would never speak of it again, a dark secret bound by terror and confusion.")
     print("You've reached the end of the line. Go back and take another crack at it.")
-    
+def go_alone():
+    print("You take a deep breath, nodding to your friends. “I’ll be fine,” you say, pushing open ")
+    print("the creaking gate. The thought of exploring the asylum by yourself both excites and ")
+    print("terrifies you. You feel a sense of independence, but the silence around you is ")
+    print("deafening. As you step deeper into the asylum, the air grows colder, and the faint ")
+    print("sound of dripping water echoes through the hall. You find yourself at a four-way ")
+    print("junction, with each path shrouded in darkness. A flickering light occasionally illuminates")
+    print("the walls, showing peeling paint and remnants of the past.")
+    print("What direction is the most compelling to you?")
+    print("[Forward] or [Back] or [Left] or [Right]")
+    choice = input()
+    if choice == "forward":
+        go_forward
+    elif choice == "back":
+        go_back()
+    elif choice == "left":
+        go_left
+    elif choice =="right":
+        go_right
+
 
     
 #Start Program
