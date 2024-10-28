@@ -146,7 +146,7 @@ def examine_furniture():
     print("[Crash]")
     choice = input()
     if choice == "crash":
-        go_to_crash
+        go_to_crash()
 def look_at_mirror():
     print("As you approach the mirror, you catch a fleeting glimpse of a shadowy figure behind")
     print("you in the reflection. When you turn around, nothing is there. Your heart races. “Did")
