@@ -156,7 +156,7 @@ def look_at_mirror():
     print("[Crash]")
     choice = input
     if choice == "crash":
-        go_to_crash
+        go_to_crash()
 def go_to_crash():
     print("Together you raced up the staircase, your footsteps pounding against the wooden")
     print("steps. The air thickened with an unsettling tension, each step amplifying your growing")
