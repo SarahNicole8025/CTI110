@@ -135,7 +135,7 @@ def explore_main_hall():
     if choice == "furniture":
         examine_furniture()
     elif choice == "mirror":
-        look_at_mirror()
+        look_at_mirror()       
 def examine_furniture():
     print("While rummaging through the old desk, you discover a hidden drawer. Inside, there’s a ")
     print("dusty ledger with strange symbols and cryptic notes scrawled in the margins. One note")
@@ -154,7 +154,7 @@ def look_at_mirror():
     print("crash from above. causing you and marina you race up the stairs in search of ")
     print("Royce and Asher.")
     print("[Crash]")
-    choice = input
+    choice = input()
     if choice == "crash":
         go_to_crash()
 def go_to_crash():
